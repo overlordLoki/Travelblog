@@ -5,6 +5,7 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import Blogs from './pages/Blogs';
 import About from './pages/About';
+import AdminPanel from "./pages/AdminPanel";
 
 const App: React.FC = () => (
   <Router>
@@ -22,6 +23,7 @@ const App: React.FC = () => (
             <Route path="/home" element={<Navigate to="/" replace />} />
             <Route path="/blogs" element={<Blogs />} />
             <Route path="/about" element={<About />} />
+            <Route path="/admin" element={<AdminPanel />} />
           </Routes>
         </main>
 
