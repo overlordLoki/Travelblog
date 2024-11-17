@@ -1,3 +1,11 @@
+/* index.css or App.css */
+@import url('https://fonts.googleapis.com/css2?family=Sulphur+Point:wght@300;400;700&display=swap');
+
+h1, h2 {
+  font-family: 'Sulphur Point', sans-serif;
+  color: #252525; /* Dark grey color */
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
