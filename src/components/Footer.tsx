@@ -38,12 +38,13 @@ const Footer: React.FC = () => {
 
           {/* Center Section with Updated Image */}
           <div className="relative flex-shrink-0 flex-grow-0 w-32 h-32 md:w-40 md:h-40">
-            <img 
-              src="src/assets/Mum.jpg"  // Updated image source
-              alt="Logo"
-              className="absolute top-0 left-1/2 transform -translate-x-1/2 rounded-full w-full h-full object-cover"
-            />
-          </div>
+  <img 
+    src="src/assets/ab2.jpg"  // Updated image source
+    alt="Logo"
+    className="absolute top-0 left-1/2 transform -translate-x-1/2 rounded-full w-full h-full object-cover grayscale"  // Add 'grayscale' class
+  />
+</div>
+
 
           {/* Right Section (Newsletter Form) */}
           <div className="text-center md:text-right w-full md:w-1/3 flex-1 ml-4 md:ml-8">
@@ -65,7 +66,7 @@ const Footer: React.FC = () => {
                 />
                 <button 
                   type="submit" 
-                  className="w-1/2 bg-gray-800 text-white px-2 py-1 hover:bg-gray-700 text-xs"
+                  className="w-1/2 bg-black text-white px-2 py-1 hover:bg-gray-800 text-xs"
                 >
                   Sign Up
                 </button>

@@ -3,7 +3,7 @@
 
 h1, h2, h3 {
   font-family: 'Sulphur Point', sans-serif;
-  color: #252525; /* Dark grey color */
+  color: #161616; /* Dark grey color */
 }
 
 @tailwind base;

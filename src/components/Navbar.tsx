@@ -7,7 +7,7 @@ const Navbar: React.FC = () => {
       {/* Logo, Website Title, and Navigation Links */}
       <div className="flex items-center px-4 py-1">
         {/* Website Title on the left */}
-        <h1 className="text-xl text-gray-800 flex-1">Out & About with Leesa</h1>
+        <h1 className="text-xl flex-1">Out & About with Leesa</h1>
 
         {/* Navigation Links in the center */}
         <nav className="flex justify-center flex-1">

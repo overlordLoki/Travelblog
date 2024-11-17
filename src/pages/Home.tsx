@@ -20,7 +20,7 @@ const Home: React.FC = () => {
           <img 
             src="/src/assets/4.jpg" 
             alt="Introduction" 
-            className="absolute top-0 left-0 w-full h-full object-cover"
+            className="absolute top-0 left-0 w-full h-full object-cover p-4 border shadow-lg"
           />
         </div>
       </section>
